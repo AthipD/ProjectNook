@@ -1,4 +1,6 @@
 import React from "react";
+import logo from '../image/S__8675335.jpg'; //  this JS file uses this image
+
 
 export const Navigation = (props) => {
   return (
@@ -18,8 +20,10 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+           {/* Winner.Audio */}
+           <img src={logo} alt=" " style={{ height: "40px",width:"155px" }} />
           </a>{" "}
+          
         </div>
 
         <div

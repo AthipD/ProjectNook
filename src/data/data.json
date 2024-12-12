@@ -1,10 +1,10 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
-  },
-  "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "Winner Audio Sound",
+    "paragraph": "เราคือผู้เชี่ยวชาญด้านการจัดหาและให้บริการระบบเครื่องเสียงครบวงจร ไม่ว่าจะเป็นงานอีเวนต์ งานคอนเสิร์ต หรืองานประชุม เรามีทีมงานมืออาชีพและอุปกรณ์ที่ทันสมัย เพื่อให้ทุกงานของคุณเต็มไปด้วยคุณภาพเสียงที่ดีที่สุด พร้อมตอบโจทย์ทุกความต้องการของคุณ"},
+  
+    "About": {
+      "paragraph": "Winner Audio Sound ให้บริการด้านระบบเครื่องเสียงและความบันเทิงด้วยมาตรฐานระดับมืออาชีพ เราเข้าใจทุกความต้องการของลูกค้าและพร้อมสร้างประสบการณ์เสียงที่ยอดเยี่ยมสำหรับงานของคุณ ทีมงานของเรามีความเชี่ยวชาญในทุกขั้นตอน ตั้งแต่การติดตั้ง การปรับแต่งระบบเสียง ไปจนถึงการดูแลความสมบูรณ์แบบของงาน ด้วยอุปกรณ์ทันสมัยและเทคโนโลยีล่าสุด เรามุ่งมั่นที่จะทำให้งานของคุณเป็นที่น่าจดจำ",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -61,42 +61,43 @@
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "largeImage": "img/portfolio/11lage.jpg",
+      "smallImage": "img/portfolio/11small.jpg"
     }
   ],
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
+      "name": "จัดหาเครื่องเสียงคุณภาพสูง",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
+      "name": "วงดนตรีสดหลากหลายแนว",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
+      "name": "อุปกรณ์แสงสีเสียงครบวงจร",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
+      "name": "บริการออกแบบงานบันเทิง",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
+      "name": "ตัวอย่างงานบริการ",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
+      "name": "ตัวอย่างงานบริการ",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
   ],
+
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
@@ -129,56 +130,59 @@
       "name": "Johnathan Doe"
     }
   ],
+
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/team/05.jpg",
+      "name": "Kamonwat Pohong ",
+      "job": "position"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/team/06.jpg",
+      "name": "Kannika Chanboworn",
+      "job": "position"
     }
   ],
+
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "63/3 หมู่99 ตำบล หินตั้ง อำเภอ สาริกา จังหวัด วาคันด้า 26000 ",
+    "phone": "เบอร์โทรศัพท์ของที่ติดต่องาน",
+    "email": "Email@company.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "youtube": "youtube.com",
+    "instagram": "instargram.com",
+    "line": "line.com"
   },
+
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "บริการครบวงจร",
+      "text": "ให้บริการเช่าเครื่องเสียงวงดนตรีไปจนถึงอุปกรณ์แสงสีเสียง บริการติดตั้งและเซ็ตอัพเเบบมืออาชีพ "
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "คุณภาพระดับมืออาชีพ",
+      "text": "อุปกรณ์เครื่องเสียงและแสงสีเสียงคุณภาพสูง รองรับงานทุกขนาด ตั้งแต่งานเล็ก ไปจนถึงงานใหญ่ การันตีคุณภาพเสียงและความเสถียรในทุกงาน"
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "วงดนตรีหลากหลายแนว",
+      "text": "วงดนตรีสดที่มีให้เลือกหลากหลาย เลือกแนวดนตรีให้เข้ากับธีมงาน เช่น งานแต่ง, งานเลี้ยงบริษัท, งานวันเกิด"
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "ความน่าเชื่อถือ",
+      "text": "มีผลงานจากลูกค้าและองค์กรต่างๆ รีวิวและคำชมเชยจากลูกค้าที่พึงพอใจ ที่เคยใช้บริการ ประสบการณ์จัดงานมากกว่า X ปี"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "ราคาเป็นกันเอง",
+      "text": "แพ็กเกจราคาที่หลากหลายและเหมาะสมกับทุกงบประมาณ ไม่มีค่าใช้จ่ายแอบแฝง"
     }
   ]
 }
+
+
+
