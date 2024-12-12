@@ -89,8 +89,8 @@ hr {
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
-  text-transform: uppercase;
-  color: #555;
+  text-transform: uppercase;  
+  color: #444444;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -218,7 +218,12 @@ a:focus,
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
-.intro h1 {
+.intro h2  {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+.intro h1  {
   font-family: "Raleway", sans-serif;
   color: #fff;
   font-size: 82px;
@@ -244,10 +249,17 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
+
 /* Features Section */
 #features {
   background: #f6f6f6;
+  /* background-image: url('../img/');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0; */
 }
+
 #features i.fa {
   font-size: 38px;
   margin-bottom: 20px;

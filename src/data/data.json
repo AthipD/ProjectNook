@@ -135,12 +135,15 @@
     {
       "img": "img/team/05.jpg",
       "name": "Kamonwat Pohong ",
-      "job": "position"
+      "job": "position",
+      "phone": "000000xxx"
     },
     {
       "img": "img/team/06.jpg",
       "name": "Kannika Chanboworn",
-      "job": "position"
+      "job": "position",
+      "phone": "000000xxx"
+
     }
   ],
 
@@ -148,10 +151,10 @@
     "address": "63/3 หมู่99 ตำบล หินตั้ง อำเภอ สาริกา จังหวัด วาคันด้า 26000 ",
     "phone": "เบอร์โทรศัพท์ของที่ติดต่องาน",
     "email": "Email@company.com",
-    "facebook": "fb.com",
+    "facebook": "https://www.facebook.com/NKamonwaT?locale=th_TH",
     "twitter": "twitter.com",
     "youtube": "youtube.com",
-    "instagram": "instargram.com",
+    "instagram": "https://www.instagram.com/kannika_whann?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
     "line": "line.com"
   },
 
