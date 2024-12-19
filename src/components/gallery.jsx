@@ -7,7 +7,7 @@ export const Gallery = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Gallery ( งานที่เคยไปทำมา)</h2>
-          <p>
+          <p className="text-secondary">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.
           </p>

@@ -545,6 +545,8 @@ if (typeof jQuery === 'undefined') {
 
 /* jshint latedef: false */
 
+
+
 +function ($) {
   'use strict';
 
@@ -1892,13 +1894,10 @@ if (typeof jQuery === 'undefined') {
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
-
+ // SCROLLSPY CLASS DEFINITION
+  // ==========================
 +function ($) {
   'use strict';
-
-  // SCROLLSPY CLASS DEFINITION
-  // ==========================
-
   function ScrollSpy(element, options) {
     this.$body          = $(document.body)
     this.$scrollElement = $(element).is(document.body) ? $(window) : $(element)
@@ -2065,13 +2064,10 @@ if (typeof jQuery === 'undefined') {
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
-
-+function ($) {
-  'use strict';
-
   // TAB CLASS DEFINITION
   // ====================
-
++function ($) {
+  'use strict';
   var Tab = function (element) {
     // jscs:disable requireDollarBeforejQueryAssignment
     this.element = $(element)
@@ -2358,6 +2354,7 @@ if (typeof jQuery === 'undefined') {
 
 
   // AFFIX DATA-API
+  
   // ==============
 
   $(window).on('load', function () {

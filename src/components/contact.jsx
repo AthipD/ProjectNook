@@ -63,7 +63,7 @@ export const Contact = (props) => {
                         type="text"
                         id="name"
                         name="name"
-                        className="form-control"
+                        className="form-control rounded-3"
                         placeholder="Name"
                         required
                         onChange={handleChange}
@@ -77,7 +77,7 @@ export const Contact = (props) => {
                         type="email"
                         id="email"
                         name="email"
-                        className="form-control"
+                        className="form-control rounded-3"
                         placeholder="Email"
                         required
                         onChange={handleChange}
@@ -90,7 +90,7 @@ export const Contact = (props) => {
                   <textarea
                     name="message"
                     id="message"
-                    className="form-control"
+                    className="form-control rounded-3"
                     rows="4"
                     placeholder="Message"
                     required
@@ -157,7 +157,8 @@ export const Contact = (props) => {
           </div>
         </div>
       </div>
-      <div id="footer">
+
+      {/* <div id="footer">
         <div className="container text-center">
           <p>
             &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
@@ -166,7 +167,8 @@ export const Contact = (props) => {
             </a>
           </p>
         </div>
-      </div>
+      </div> */}
+      
     </div>
   );
 };

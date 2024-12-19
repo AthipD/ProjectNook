@@ -6,7 +6,7 @@ export const Team = (props) => {
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Meet the Team (พบกับทีมงาน)</h2>
-          <p>
+          <p className="text-secondary"> 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
             dapibus leonec.
           </p>
@@ -19,9 +19,9 @@ export const Team = (props) => {
                     {" "}
                     <img src={d.img} alt="..." className="team-img" />
                     <div className="caption">
-                      <h4>{d.name}</h4>
-                      <p>{d.job}</p>
-                      <p>Tel. : {d.phone}</p>
+                      <h4 className="">{d.name}</h4>
+                      <p className="text-secondary">{d.job}</p>
+                      <p className="text-secondary"> Tel. : {d.phone}</p>
                       
                     </div>
                   </div>

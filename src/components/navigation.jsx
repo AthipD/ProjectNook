@@ -1,68 +1,64 @@
 import React from "react";
-import logo from '../image/S__8675335.jpg'; //  this JS file uses this image
-
+import logo from "../image/S__8675335.jpg"; //  this JS file uses this image
 
 export const Navigation = (props) => {
   return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container">
-        <div className="navbar-header">
-          <button
-            type="button"
-            className="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
-          >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-          </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-           {/* Winner.Audio */}
-           <img src={logo} alt=" " style={{ height: "40px",width:"155px" }} />
-          </a>{" "}
-          
-        </div>
-
-        <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
+    <nav className="navbar navbar-expand-lg navbar-light bg-body-tertiary navbar-expand-md fixed-top">
+      <div className="container-fluid d-flex justify-content-between">
+        {/* Left Side: Logo */}
+        <a className="navbar-brand" href="#page-top">
+          <img src={logo} alt="Logo" style={{ height: "40px", width: "155px", marginLeft: "40px" }} />
+        </a>
+        {/* Navbar Toggle Button for Mobile */}
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <ul className="nav navbar-nav navbar-right">
-            <li>
-              <a href="#features" className="page-scroll">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        {/* Right Side: Menu */}
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="#features"
+              >
                 Features
               </a>
             </li>
-            <li>
-              <a href="#about" className="page-scroll">
+            <li className="nav-item">
+              <a className="nav-link" href="#about">
                 About
               </a>
             </li>
-            <li>
-              <a href="#services" className="page-scroll">
+            <li className="nav-item">
+              <a className="nav-link" href="#services">
                 Services
               </a>
             </li>
-            <li>
-              <a href="#portfolio" className="page-scroll">
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href="#testimonials" className="page-scroll">
+            <li className="nav-item">
+              <a className="nav-link" href="#testimonials">
                 Testimonials
               </a>
             </li>
-            <li>
-              <a href="#team" className="page-scroll">
+            <li className="nav-item">
+              <a className="nav-link" href="#team">
                 Team
               </a>
             </li>
-            <li>
-              <a href="#contact" className="page-scroll">
+            <li className="nav-item">
+              <a className="nav-link" href="#contact">
                 Contact
               </a>
             </li>
