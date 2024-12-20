@@ -11,6 +11,7 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+
 // import App2 from "./components/Test";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
