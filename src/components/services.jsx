@@ -45,7 +45,9 @@ export const Services = (props) => {
                   <button
                     onClick={() => navigate("/detailsSV")}
                     href="#"
-                    className="btn btn-primary mt-auto" // ใช้ mt-auto ดันปุ่มให้อยู่ล่างสุด
+                    className="btn btn-primary mt-auto btn-custom " // ใช้ mt-auto ดันปุ่มให้อยู่ล่างสุด
+                    style={{width:"50%",margin:"0 auto"}}
+                    // background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
                   >
                     Go somewhere
                   </button>
