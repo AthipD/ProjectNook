@@ -3,6 +3,7 @@
     "title": "Winner Audio Sound",
     "paragraph": "เราคือผู้เชี่ยวชาญด้านการจัดหาและให้บริการระบบเครื่องเสียงครบวงจรไม่ว่าจะเป็นงานอีเวนต์งานคอนเสิร์ตหรืองานประชุมเรามีทีมงานมืออาชีพและอุปกรณ์ที่ทันสมัยเพื่อให้ทุกงานของคุณเต็มไปด้วยคุณภาพเสียงที่ดีที่สุด พร้อมตอบโจทย์ทุกความต้องการของคุณ"},
   
+    
     "About": {
       "paragraph": "Winner Audio Sound ให้บริการด้านระบบเครื่องเสียงและความบันเทิงด้วยมาตรฐานระดับมืออาชีพ เราเข้าใจทุกความต้องการของลูกค้าและพร้อมสร้างประสบการณ์เสียงที่ยอดเยี่ยมสำหรับงานของคุณ ทีมงานของเรามีความเชี่ยวชาญในทุกขั้นตอน ตั้งแต่การติดตั้ง การปรับแต่งระบบเสียง ไปจนถึงการดูแลความสมบูรณ์แบบของงาน ด้วยอุปกรณ์ทันสมัยและเทคโนโลยีล่าสุด เรามุ่งมั่นที่จะทำให้งานของคุณเป็นที่น่าจดจำ",
     "Why": [
@@ -67,31 +68,37 @@
   ],
   "Services": [
     {
+      "img": "img/service/02.jpg",
       "icon": "fa fa-wordpress",
       "name": "จัดหาเครื่องเสียงคุณภาพสูง",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
+      "img": "img/service/วงดนตรี02.jpg",
       "icon": "fa fa-cart-arrow-down",
       "name": "วงดนตรีสดหลากหลายแนว",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
+      "img": "img/service/เเสงสี01.png",
       "icon": "fa fa-cloud-download",
       "name": "อุปกรณ์แสงสีเสียงครบวงจร",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
+      "img": "img/service/ออกกเบบงาน02.jpg",
       "icon": "fa fa-language",
       "name": "บริการออกแบบงานบันเทิง",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
+      "img": "img/service/เด้กเอ็น.jpg",
       "icon": "fa fa-plane",
-      "name": "ตัวอย่างงานบริการ",
+      "name": "เด็กเอ็น เเดนซเวอร์",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
+      "img": "img/service/ชุดเครื่องเสียง01.jpg",
       "icon": "fa fa-pie-chart",
       "name": "ตัวอย่างงานบริการ",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
@@ -191,6 +198,8 @@
     }
   ]
 }
+
+
 
 
 

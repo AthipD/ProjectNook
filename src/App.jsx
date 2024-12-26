@@ -14,6 +14,7 @@ import "./App.css";
 
 // import App2 from "./components/Test";
 
+// ใช้ SmoothScroll
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
@@ -21,8 +22,33 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
+
   useEffect(() => {
+    // โหลดข้อมูล JSON
     setLandingPageData(JsonData);
+
+    // Intersection Observer สำหรับทุก `.animate-on-scroll`
+    const elements = document.querySelectorAll(".animate-on-scroll");
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("in-view");
+          }
+        });
+      },
+      {
+        threshold: 0.1, // เริ่มทำงานเมื่อ 10% ขององค์ประกอบเข้ามาใน viewport
+      }
+    );
+
+    // สังเกตการณ์ทุกองค์ประกอบ
+    elements.forEach((el) => observer.observe(el));
+
+    // Cleanup observer เมื่อ component ถูกทำลาย
+    return () => {
+      elements.forEach((el) => observer.unobserve(el));
+    };
   }, []);
 
   return (

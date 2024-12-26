@@ -1,9 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+import images from "../data/datajs"; // นำเข้าข้อมูลรูปภาพ
 
 export const Services = (props) => {
+  const navigate = useNavigate();
+
   return (
     <div id="services" className="text-center">
-      <div  className="container">
+      <div className="container">
         <div className="section-title">
           <h2>Our Services(บริการของเรา)</h2>
           <p>
@@ -15,15 +19,29 @@ export const Services = (props) => {
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-3 cardd m-2 ">
+                <div key={`${d.name}-${i}`} className="col-md-3 cardd m-2 " style={{ minHeight: "430px" }}>
                   {" "}
-                  <i className={d.icon}></i>
+                  {/* <i className={d.icon}></i> */}
+                  <img
+                    src={d.img}
+                    alt={d.name}
+                    className="img-fluid rounded shadow-sm"
+                    style={{
+                      maxWidth: "200px",
+                      maxHeight: "200px",
+                      objectFit: "cover",
+                    }}
+                  />
                   <div className="service-desc">
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>
-                      <a href="#" className="btn btn-primary fs-5">
+                    <button
+                      onClick={() => navigate("/detailsSV")}
+                      href="#"
+                      className="btn btn-primary fs-5"
+                    >
                       Go somewhere
-                    </a>
+                    </button>
                   </div>
                 </div>
               ))
