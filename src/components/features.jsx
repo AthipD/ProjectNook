@@ -20,8 +20,8 @@ export const Features = (props) => {
                     {/* <img src="..." className="card-img-top" alt="..."></img> */}
                     <div className="card-body">
                       <i style={{ text: "center" }} className={d.icon}></i>
-                      <h3 className="card-title text-primary ">{d.title}</h3>
-                      <p className="card-text text">{d.text}</p>
+                      <h2 style={{ color: "#FF9C73" }} className="card-title  ">{d.title}</h2>
+                      <p  className="card-text text-white">{d.text}</p>
                       {/* <a href="#" className="btn btn-primary">
                       Go somewhere
                     </a> */}

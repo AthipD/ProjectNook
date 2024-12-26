@@ -16,12 +16,17 @@ export const Services = (props) => {
             ที่จะช่วยสร้างความประทับใจในทุกโอกาสพิเศษของคุณ
           </p>
         </div>
-        <div className="row">
+        <div className="row ">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-3 cardd m-2 " style={{ minHeight: "430px" }}>
-                  {" "}
-                  {/* <i className={d.icon}></i> */}
+                <div
+                  key={`${d.name}-${i}`}
+                  className="col-md-3 cardd m-3 d-flex flex-column justify-content-between"
+                  style={{
+                    height: "100%", // ทำให้การ์ดมีความสูงเต็ม
+                    minHeight: "450px", // กำหนดความสูงขั้นต่ำของการ์ด
+                  }}
+                >
                   <img
                     src={d.img}
                     alt={d.name}
@@ -30,19 +35,20 @@ export const Services = (props) => {
                       maxWidth: "200px",
                       maxHeight: "200px",
                       objectFit: "cover",
+                      alignSelf: "center", // จัดให้อยู่กึ่งกลางแนวนอน
                     }}
                   />
-                  <div className="service-desc">
+                  <div className="service-desc text-center mt-3">
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>
-                    <button
-                      onClick={() => navigate("/detailsSV")}
-                      href="#"
-                      className="btn btn-primary fs-5"
-                    >
-                      Go somewhere
-                    </button>
                   </div>
+                  <button
+                    onClick={() => navigate("/detailsSV")}
+                    href="#"
+                    className="btn btn-primary mt-auto" // ใช้ mt-auto ดันปุ่มให้อยู่ล่างสุด
+                  >
+                    Go somewhere
+                  </button>
                 </div>
               ))
             : "loading"}

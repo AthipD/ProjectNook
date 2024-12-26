@@ -321,18 +321,35 @@ header .intro-text {
 
 #features {
   display: grid;
-  /* background: #f6f6f6; */
-  /* background-color: #E3F2FD; */
-  background: linear-gradient(to right, #5d230e 0%, #01101c 100%);
-  /* background-image: url('../img/');
+  background-image: url('../img/BG/Bgfffff.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 50px 0; */
+  padding: 50px 0;
 
   justify-content: center;
   align-items: center;
+
+  /* ซ้อนสีโปร่งใส */
+  position: relative;
 }
+
+#features::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* ปรับสีดำซ้อนเพื่อลดความสว่าง */
+  z-index: 1;
+}
+
+#features > * {
+  position: relative;
+  z-index: 2;
+}
+
 
 /* #features .row {
     display: flex;
@@ -380,7 +397,8 @@ p {
 
 .features .cardft {
   /* background: transparent; */
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(254, 254, 254, 0.4);
+  /* background: rgba(255, 255, 255, 0.4); */
   /* พื้นหลังโปร่งแสง */
   /* border: 1px solid rgba(255, 255, 255, 0.2); ขอบบางเบา */
   border-radius: 15px;
@@ -587,21 +605,56 @@ p {
 }
 
 #services .cardd {
-  background: rgba(255, 255, 255, 0.1);
-  /* พื้นหลังโปร่งแสง */
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  /* ขอบบางเบา */
-  border-radius: 15px;
-  /* มุมโค้งมน */
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-  /* เพิ่มเงา */
+  background: rgba(255, 255, 255, 0.1); /* พื้นหลังโปร่งแสง */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* ขอบบางเบา */
+  border-radius: 15px; /* มุมโค้งมน */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* เพิ่มเงา */
   transition: transform 0.3s, box-shadow 0.3s;
   padding: 20px;
+  height: 450px; /* ความสูงเต็มพื้นที่ */
+  display: flex; /* ใช้ Flexbox */
+  flex-direction: column; /* จัดเนื้อหาในแนวตั้ง */
+}
+
+#services .cardd img {
+  border-radius: 10px; /* มุมโค้งมนเฉพาะรูปภาพ */
+  max-height: 200px; /* กำหนดความสูงสูงสุดของรูปภาพ */
+  object-fit: cover; /* ครอบคลุมรูปภาพ */
+  margin-bottom: 15px; /* เว้นช่องว่างระหว่างรูปภาพและข้อความ */
+}
+
+#services .cardd h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#services .cardd p {
+  font-size: 14px;
+  color: #ddd;
+  margin-bottom: auto; /* ดันปุ่มลงล่าง */
+}
+
+#services .cardd button {
+  margin-top: auto; /* ดันปุ่มให้อยู่ด้านล่าง */
+  background-color: #007bff; /* สีปุ่ม */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  transition: background-color 0.3s;
+}
+
+#services .cardd button:hover {
+  background-color: #0056b3; /* สีปุ่มเมื่อ hover */
 }
 
 #services .cardd:hover {
-  transform: translateY(-10px);
+  transform: scale(1.05); /* ขยายการ์ดเมื่อ hover */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* เงาเข้มขึ้น */
 }
+
 
 /* Portfolio Section */
 #portfolio {
